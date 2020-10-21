@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Jornada Escolar</string>
+    <string name="txtRA">RA:*</string>
+    <string name="txtNomeAluno">Nome:*</string>
+    <string name="txtCurso">Curso:*</string>
+    <string name="txtTurma">Turma:*</string>
+</resources>

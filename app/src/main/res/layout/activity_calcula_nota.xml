@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:duplicateParentState="false"
+        android:orientation="vertical"
+        tools:context=".ui.activity.CalculaNotaActivity">
+
+        <ImageButton
+            android:id="@+id/image_btn_activity_calcular_nota_voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FFFFFF"
+            android:clickable="true"
+            android:src="@drawable/ic_action_voltar_black" />
+
+        <TextView
+            android:id="@+id/txt_activity_calcula_nota_nome_disciplina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_activity_calcula_nota_nota_a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_activity_calcula_nota_nome_disciplina"
+            android:layout_margin="8dp"
+            android:text="Nota A1:  "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/activity_calcula_nota_a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_activity_calcula_nota_nota_a1"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:editable="true"
+            android:hint="Digite uma nota de 0 até 5"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/txt_activity_calcula_nota_a2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_calcula_nota_a1"
+            android:layout_margin="8dp"
+            android:text="Nota A2:  "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/activity_calcula_nota_a2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_activity_calcula_nota_a2"
+            android:layout_margin="8dp"
+            android:hint="Digite uma nota de 0 até 5"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/txt_activity_calcula_nota_af"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_calcula_nota_a2"
+            android:layout_margin="8dp"
+            android:text="Nota AF:  "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/activity_calcula_nota_af"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_activity_calcula_nota_af"
+            android:layout_margin="8dp"
+            android:hint="Digite uma nota de 0 até 5"
+            android:inputType="numberDecimal"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_activity_calcula_nota_calcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_calcula_nota_af"
+            android:text="Calcular Nota Final"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/corTextButton"
+            android:background="@drawable/padrao_arredondar_button_azul"/>
+
+        <TextView
+            android:id="@+id/txt_activity_calcula_nota_parecer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_activity_calcula_nota_calcular"
+            android:layout_margin="8dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_activity_calcula_nota_af"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_activity_calcula_nota_parecer"
+            android:text="AVALIAÇÃO FINAL"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/corTextButton"
+            android:background="@drawable/padrao_arredondar_button_azul"/>
+
+    </RelativeLayout>
+</ScrollView>

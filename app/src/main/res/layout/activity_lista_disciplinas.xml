@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.ListaDisciplinasActivity">
+
+    <TextView
+        android:id="@+id/txt_activity_lista_disciplina_titulo_dados_do_aluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="DADOS DO ALUNO"
+        android:textAlignment="viewStart"
+        android:textColor="#128297"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_activity_lista_disciplina_ra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RA:"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/txt_activity_lista_disciplina_titulo_dados_do_aluno"/>
+
+    <TextView
+        android:id="@+id/txt_activity_lista_disciplina_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/txt_activity_lista_disciplina_ra"/>
+
+    <TextView
+        android:id="@+id/txt_activity_lista_disciplina_curso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Curso:"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/txt_activity_lista_disciplina_nome"/>
+
+    <TextView
+        android:id="@+id/txt_activity_lista_disciplina_turma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turma:"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/txt_activity_lista_disciplina_curso"/>
+
+    <TextView
+        android:id="@+id/txt_activity_lista_disciplina_subtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECIONE UMA DISCIPLINA"
+        android:layout_margin ="10dp"
+        android:textStyle="bold"
+        android:textColor="#128297"
+        android:layout_below="@id/txt_activity_lista_disciplina_turma"/>
+
+    <ListView
+        android:id="@+id/activity_lista_disciplina_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txt_activity_lista_disciplina_subtitulo"
+        android:layout_marginBottom="2dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_activity_lista_nova_disciplina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:src="@drawable/ic_action_nova_disciplina"
+        app:backgroundTint="#FF0050" />
+
+
+</RelativeLayout>

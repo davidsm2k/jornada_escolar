@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.example.jornadaescolar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.activity.MediaFinalActivity"></activity>
+        <activity android:name=".ui.activity.NovaDisciplinaActivity" />
+        <activity android:name=".ui.activity.CalculaNotaActivity" />
+        <activity android:name=".ui.activity.ListaDisciplinasActivity" />
+        <activity android:name=".ui.activity.IdentificacaoAlunoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
