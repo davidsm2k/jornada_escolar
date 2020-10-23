@@ -1,4 +1,4 @@
-# ![ICON ANDROID](https://imgur.com/4kWG55E.png) APP ANDROID JORNADA ESCOLAR ![ICON ANDROID](https://imgur.com/4kWG55E.png) 
+# ![ICON ANDROID](https://imgur.com/SS1ihCC.png) APP ANDROID JORNADA ESCOLAR ![ICON ANDROID](https://imgur.com/SS1ihCC.png) 
 
 ###### Tecnologia:
 
