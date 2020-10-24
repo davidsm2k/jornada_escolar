@@ -16,13 +16,16 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a76ed921-8422-4d23-b024-ffddbf21ef55" name="Default Changelist" comment="" />
+    <list default="true" id="a76ed921-8422-4d23-b024-ffddbf21ef55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="17bb6442" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_API_23_TESTE" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -49,6 +52,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1heoaW52umkd49rLbI75gKl5539" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,14 +62,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="17bb6442" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-21T22:43:29.653Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_API_23_TESTE" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-23T00:19:15.022Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowLogcat.ShowToolbar" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -173,6 +180,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1601746039470" />
+    <state x="204" y="294" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603412465591">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="204" y="294" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.738@0.0.1366.738" timestamp="1603412465591" />
     <state x="799" y="232" width="454" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601745999723">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -237,10 +248,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="499" y="147" key="chooseDestDirectoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1603320057843" />
-    <state x="377" y="183" key="com.intellij.ide.util.TipDialog" timestamp="1602722197821">
+    <state x="377" y="183" key="com.intellij.ide.util.TipDialog" timestamp="1603414019853">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="377" y="183" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1602722197821" />
+    <state x="377" y="183" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1603414019853" />
     <state x="444" y="213" key="edit.logcat.filter.dialog.dimensions" timestamp="1601161211712">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
