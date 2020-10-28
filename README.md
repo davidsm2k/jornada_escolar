@@ -12,4 +12,4 @@
 
 ###### Pré-visualização do projeto:
 
-![GIF DO PROJETO](https://i.picasion.com/pic90/fe01760ab8480f11d68d39d3a9e2ecc8.gif) 
+![GIF DO PROJETO](gif-demo/JORNADA-ESCOLAR-DEMO.gif)   

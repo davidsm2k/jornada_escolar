@@ -17,7 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a76ed921-8422-4d23-b024-ffddbf21ef55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -248,10 +248,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="499" y="147" key="chooseDestDirectoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1603320057843" />
-    <state x="377" y="183" key="com.intellij.ide.util.TipDialog" timestamp="1603414019853">
+    <state x="377" y="183" key="com.intellij.ide.util.TipDialog" timestamp="1603639510643">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="377" y="183" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1603414019853" />
+    <state x="377" y="183" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1603639510642" />
     <state x="444" y="213" key="edit.logcat.filter.dialog.dimensions" timestamp="1601161211712">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
